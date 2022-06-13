@@ -117,7 +117,7 @@ module "spacelift" {
   # version     = "x.x.x"
 
   stack_config_path_template = var.stack_config_path_template
-  components_path            = var.spacelift_component_path
+  components_path            = var.components_path
 
   branch                = "main"
   repository            = var.git_repository
